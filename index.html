@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Cybersecurity portfolio of Sorrawit Prammanee, a Computer Science student, CTF player, and aspiring penetration tester."
+  />
+  <title>Sorrawit Prammanee | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background-grid"></div>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Go to homepage">
+        <span>&lt;</span>MaiR00Ni<span>/&gt;</span>
+      </a>
+
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navLinks"
+        aria-label="Open navigation menu"
+      >
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, my name is</p>
+
+        <h1>Sorrawit Prammanee</h1>
+
+        <h2>
+          Cybersecurity Student,
+          <span>CTF Player</span>
+          & Aspiring Penetration Tester
+        </h2>
+
+        <p class="hero-description">
+          I am a Computer Science student at Bangkok University with interests
+          in penetration testing, digital forensics, network security, reverse
+          engineering, and Capture the Flag competitions.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary-button" href="#projects">View my projects</a>
+          <a class="button secondary-button" href="#achievements">
+            View achievements
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <strong>Bangkok University</strong>
+            <span>Computer Science</span>
+          </div>
+          <div>
+            <strong>Open to Work</strong>
+            <span>Cybersecurity Internship</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="terminal-card" aria-label="Cybersecurity profile terminal">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>MaiR00Ni@portfolio:~</p>
+        </div>
+
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="terminal-result">Sorrawit Prammanee</p>
+
+          <p><span class="prompt">$</span> cat goal.txt</p>
+          <p class="terminal-result">Junior Penetration Tester</p>
+
+          <p class="cursor-line">
+            <span class="prompt">$</span>
+            <span class="cursor"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="section-number">01.</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a fourth-year Computer Science student at Bangkok University
+            with a strong passion for penetration testing and offensive
+            security. I am particularly interested in identifying
+            vulnerabilities, understanding how systems can be compromised, and
+            helping organizations strengthen their security.
+          </p>
+
+          <p>
+            Through hands-on labs, CTF challenges, cybersecurity competitions,
+            and practical projects, I have developed experience in web
+            application testing, vulnerability assessment, digital forensics,
+            network analysis, Linux, and reverse engineering.
+          </p>
+
+          <p>
+            I am committed to continuously expanding my knowledge, improving
+            my technical skills, and learning from real-world security
+            challenges. My goal is to grow into a professional penetration
+            tester who can deliver meaningful security improvements.
+          </p>
+
+          <div class="about-htb-card">
+            <div class="about-htb-heading">
+              <span class="about-htb-mark" aria-hidden="true">⌬</span>
+              <p>HACK THE BOX PROFILE</p>
+            </div>
+            <div class="about-htb-details">
+              <div>
+                <span>USERNAME</span>
+                <strong>MaiR00Ni</strong>
+              </div>
+              <div>
+                <span>CURRENT RANK</span>
+                <strong class="about-htb-rank">HACKER</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <figure class="profile-photo">
+            <img
+              src="Profile.JPG"
+              alt="Portrait of Sorrawit Prammanee"
+              loading="lazy"
+            />
+            <figcaption>
+              <span class="profile-status-dot" aria-hidden="true"></span>
+              Open to opportunities
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <p class="section-number">02.</p>
+        <h2>Work Experience</h2>
+      </div>
+
+      <p class="section-intro">
+        Experience in penetration testing, vulnerability assessment, security
+        validation, and technical reporting.
+      </p>
+
+      <div class="experience-timeline">
+        <article class="experience-card">
+          <div class="experience-date">
+            <span>Jul 2025</span>
+            <span>—</span>
+            <span>Dec 2025</span>
+          </div>
+
+          <div class="experience-content">
+            <div class="experience-header">
+              <div>
+                <h3>Junior Penetration Tester</h3>
+                <p class="company">DE2 Solution · Part-time</p>
+              </div>
+              <span class="duration">5 months</span>
+            </div>
+
+            <ul class="experience-list">
+              <li>
+                Performed reconnaissance, vulnerability scanning, and web
+                application penetration testing against authorized targets.
+              </li>
+              <li>
+                Tested web applications for common security weaknesses based
+                on the OWASP Top 10.
+              </li>
+              <li>
+                Used Burp Suite, Nmap, Linux, and other penetration-testing
+                tools to identify and validate vulnerabilities.
+              </li>
+              <li>
+                Reproduced security issues and documented proof-of-concept
+                evidence and technical findings.
+              </li>
+              <li>
+                Collaborated with senior penetration testers during security
+                assessments and validation activities.
+              </li>
+              <li>
+                Prepared technical reports with vulnerability findings and
+                practical remediation recommendations.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="section-number">03.</p>
+        <h2>Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <p class="skill-icon">⌘</p>
+          <h3>Offensive Security</h3>
+          <div class="tag-list">
+            <span>Web Security</span>
+            <span>Vulnerability Assessment</span>
+            <span>Privilege Escalation</span>
+            <span>Active Directory</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <p class="skill-icon">◉</p>
+          <h3>Digital Forensics</h3>
+          <div class="tag-list">
+            <span>Memory Forensics</span>
+            <span>PCAP Analysis</span>
+            <span>Windows Event Logs</span>
+            <span>Steganography</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <p class="skill-icon">◇</p>
+          <h3>Systems & Networking</h3>
+          <div class="tag-list">
+            <span>Linux</span>
+            <span>Windows</span>
+            <span>TCP/IP</span>
+            <span>VMware</span>
+            <span>pfSense</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <p class="skill-icon">#</p>
+          <h3>Programming & Tools</h3>
+          <div class="tag-list">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>Nmap</span>
+            <span>Burp Suite</span>
+            <span>Wireshark</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-heading">
+        <p class="section-number">06.</p>
+        <h2>Cybersecurity Certificates</h2>
+      </div>
+
+      <p class="section-intro">
+        Industry certifications and structured training in offensive security,
+        penetration testing, blue-team operations, and cybersecurity
+        fundamentals.
+      </p>
+
+      <div class="certificate-grid">
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CERT</span>
+            <span class="certificate-year">FEB 2026</span>
+          </div>
+          <a
+            class="certificate-preview"
+            href="certificates/CWL%20WEB-RTA.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Certified Web Red Team Analyst certificate"
+          >
+            <img
+              src="certificates/CWL%20WEB-RTA.jpg"
+              alt="Certified Web Red Team Analyst certificate"
+              loading="lazy"
+            />
+          </a>
+          <h3>Certified Web Red Team Analyst (Web-RTA)</h3>
+          <p class="issuer">CyberWarFare Labs</p>
+          <p>
+            Practical web application security certification focused on
+            identifying, exploiting, and reporting web vulnerabilities.
+          </p>
+          <a
+            class="text-link"
+            href="certificates/CWL%20WEB-RTA.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View certificate ↗
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CERT</span>
+            <span class="certificate-year">AUG 2025</span>
+          </div>
+          <a
+            class="certificate-preview"
+            href="certificates/Certified%20Red%20Team%20Analyst%20(CRTA).jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Certified Red Team Analyst certificate"
+          >
+            <img
+              src="certificates/Certified%20Red%20Team%20Analyst%20(CRTA).jpg"
+              alt="Certified Red Team Analyst certificate"
+              loading="lazy"
+            />
+          </a>
+          <h3>Certified Red Team Analyst (CRTA)</h3>
+          <p class="issuer">CyberWarFare Labs</p>
+          <p>
+            Hands-on red-team certification covering enumeration,
+            exploitation, Active Directory attacks, and technical reporting.
+          </p>
+          <a
+            class="text-link"
+            href="certificates/Certified%20Red%20Team%20Analyst%20(CRTA).jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View certificate ↗
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CERT</span>
+            <span class="certificate-year">JUN 2025</span>
+          </div>
+          <a
+            class="certificate-preview"
+            href="certificates/Jr%20Penetration%20Tester%20Certificate.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Jr Penetration Tester certificate"
+          >
+            <img
+              src="certificates/Jr%20Penetration%20Tester%20Certificate.jpg"
+              alt="Jr Penetration Tester certificate"
+              loading="lazy"
+            />
+          </a>
+          <h3>Jr Penetration Tester Certificate</h3>
+          <p class="issuer">TryHackMe</p>
+          <p>
+            Practical penetration-testing pathway covering reconnaissance,
+            web security, exploitation, and reporting fundamentals.
+          </p>
+          <a
+            class="text-link"
+            href="certificates/Jr%20Penetration%20Tester%20Certificate.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View certificate ↗
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CERT</span>
+            <span class="certificate-year">JUL 2025</span>
+          </div>
+          <a
+            class="certificate-preview"
+            href="certificates/Blue%20Team%20Fundamentals.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Blue Team Fundamentals certificate"
+          >
+            <img
+              src="certificates/Blue%20Team%20Fundamentals.jpg"
+              alt="Blue Team Fundamentals certificate"
+              loading="lazy"
+            />
+          </a>
+          <h3>Blue Team Fundamentals</h3>
+          <p class="issuer">CyberWarFare Labs</p>
+          <p>
+            Foundational defensive-security training in threat detection,
+            incident response, security monitoring, and analysis.
+          </p>
+          <a
+            class="text-link"
+            href="certificates/Blue%20Team%20Fundamentals.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View certificate ↗
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CERT</span>
+            <span class="certificate-year">MAY 2025</span>
+          </div>
+          <a
+            class="certificate-preview"
+            href="certificates/MOOC%20BASIC%20CYBERSECURITY.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Basic Cybersecurity Course certificate"
+          >
+            <img
+              src="certificates/MOOC%20BASIC%20CYBERSECURITY.jpg"
+              alt="Basic Cybersecurity Course certificate"
+              loading="lazy"
+            />
+          </a>
+          <h3>Basic Cybersecurity Course</h3>
+          <p class="issuer">National Cyber Security Agency Thailand</p>
+          <p>
+            Core cybersecurity training covering digital threats, safe
+            practices, risk awareness, and essential security principles.
+          </p>
+          <a
+            class="text-link"
+            href="certificates/MOOC%20BASIC%20CYBERSECURITY.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View certificate ↗
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">FEB 2026</span>
+          </div>
+          <a class="certificate-preview" href="certificates/BU%20mini%20CTF%202026.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/BU%20mini%20CTF%202026.jpg" alt="BU Mini CTF Competition 2026 certificate" loading="lazy" />
+          </a>
+          <h3>BU Mini CTF Competition 2026</h3>
+          <p class="issuer">2nd Place</p>
+          <a class="text-link" href="certificates/BU%20mini%20CTF%202026.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/BU-ITI%20CTF%20Completition%202025.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/BU-ITI%20CTF%20Completition%202025.jpg" alt="BU ITI CTF Competition 2025 certificate" loading="lazy" />
+          </a>
+          <h3>BU-ITI CTF Competition 2025</h3>
+          <p class="issuer">Competition Certificate</p>
+          <a class="text-link" href="certificates/BU-ITI%20CTF%20Completition%202025.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">JUL 2026</span>
+          </div>
+          <a class="certificate-preview" href="certificates/Cyber%20Apocalypse%20CTF%202026%20The%20Salt%20Crown.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/Cyber%20Apocalypse%20CTF%202026%20The%20Salt%20Crown-preview.jpg" alt="Cyber Apocalypse CTF 2026 certificate" loading="lazy" />
+          </a>
+          <h3>Cyber Apocalypse CTF 2026: The Salt Crown</h3>
+          <p class="issuer">Hack The Box · 22nd / 6,744</p>
+          <a class="text-link" href="certificates/Cyber%20Apocalypse%20CTF%202026%20The%20Salt%20Crown.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">COMPETITION</span>
+            <span class="certificate-year">2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/Cyber%20TOp%20talent%202025.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/Cyber%20TOp%20talent%202025.jpg" alt="Cyber Top Talent 2025 certificate" loading="lazy" />
+          </a>
+          <h3>Cyber Top Talent 2025</h3>
+          <p class="issuer">Cybersecurity Competition</p>
+          <a class="text-link" href="certificates/Cyber%20TOp%20talent%202025.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">HACKATHON</span>
+            <span class="certificate-year">CERTIFICATE</span>
+          </div>
+          <a class="certificate-preview" href="certificates/Google%20Hardware%20Hackathon.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/Google%20Hardware%20Hackathon.jpg" alt="Google Hardware Hackathon certificate" loading="lazy" />
+          </a>
+          <h3>Google Hardware Hackathon</h3>
+          <p class="issuer">Google</p>
+          <a class="text-link" href="certificates/Google%20Hardware%20Hackathon.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">DEC 2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/HackTheScammer2025.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/HackTheScammer2025.jpg" alt="Hack The Scammer CTF 2025 certificate" loading="lazy" />
+          </a>
+          <h3>Hack The Scammer CTF 2025</h3>
+          <p class="issuer">37th Place</p>
+          <a class="text-link" href="certificates/HackTheScammer2025.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">SEP 2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/Holmes%20CTF%20-%20Capture%20The%20Flag%20Challenge.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/Holmes%20CTF%20-%20Capture%20The%20Flag%20Challenge.jpg" alt="Hack The Box Holmes CTF 2025 certificate" loading="lazy" />
+          </a>
+          <h3>Hack The Box Holmes CTF 2025</h3>
+          <p class="issuer">53rd / 6,686</p>
+          <a class="text-link" href="certificates/Holmes%20CTF%20-%20Capture%20The%20Flag%20Challenge.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">COMPETITION</span>
+            <span class="certificate-year">JUL 2026</span>
+          </div>
+          <a class="certificate-preview" href="certificates/RTARF2026.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/RTARF2026-preview.jpg" alt="RTARF Cybersecurity Competition 2026 certificate" loading="lazy" />
+          </a>
+          <h3>RTARF Cybersecurity Competition 2026</h3>
+          <p class="issuer">Competition Certificate</p>
+          <a class="text-link" href="certificates/RTARF2026.pdf" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">JUL 2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/SWU%20Capture%20the%20Flag%20Competition%202025.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/SWU%20Capture%20the%20Flag%20Competition%202025.jpg" alt="SWU Capture the Flag Competition 2025 certificate" loading="lazy" />
+          </a>
+          <h3>SWU Capture the Flag Competition 2025</h3>
+          <p class="issuer">6th Place</p>
+          <a class="text-link" href="certificates/SWU%20Capture%20the%20Flag%20Competition%202025.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">COMPETITION</span>
+            <span class="certificate-year">2024</span>
+          </div>
+          <a class="certificate-preview" href="certificates/Thailand%20Cyber%20Top%20Talent%202024.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/Thailand%20Cyber%20Top%20Talent%202024.jpg" alt="Thailand Cyber Top Talent 2024 certificate" loading="lazy" />
+          </a>
+          <h3>Thailand Cyber Top Talent 2024</h3>
+          <p class="issuer">Cybersecurity Competition</p>
+          <a class="text-link" href="certificates/Thailand%20Cyber%20Top%20Talent%202024.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+
+        <article class="certificate-card">
+          <div class="certificate-top">
+            <span class="certificate-badge">CTF</span>
+            <span class="certificate-year">DEC 2025</span>
+          </div>
+          <a class="certificate-preview" href="certificates/University%20CTF%202025%20Tinsel%20Trouble.jpg" target="_blank" rel="noopener noreferrer">
+            <img src="certificates/University%20CTF%202025%20Tinsel%20Trouble.jpg" alt="Hack The Box University CTF 2025 certificate" loading="lazy" />
+          </a>
+          <h3>University CTF 2025: Tinsel Trouble</h3>
+          <p class="issuer">Hack The Box · 190th Place</p>
+          <a class="text-link" href="certificates/University%20CTF%202025%20Tinsel%20Trouble.jpg" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="achievements">
+      <div class="section-heading">
+        <p class="section-number">04.</p>
+        <h2>CTF & Competition Achievements</h2>
+      </div>
+
+      <p class="section-intro">
+        Selected results from international CTF events, university
+        competitions, and national cybersecurity skills competitions.
+      </p>
+
+      <div class="timeline">
+        <article class="timeline-item achievement-featured priority-4">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Hack The Box Cyber Apocalypse CTF 2026: The Salt Crown</h3>
+              <span>29 JUL 2026</span>
+            </div>
+            <p class="achievement-title">22nd Place / 6,744 Teams</p>
+            <p>
+              Achieved a top international placement in Hack The Box's global
+              Cyber Apocalypse competition.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/Cyber%20Apocalypse%20CTF%202026%20The%20Salt%20Crown.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item achievement-featured priority-4">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>WorldSkills Thailand 2026 — Regional Competition</h3>
+              <span>2026</span>
+            </div>
+            <p class="achievement-title">Central Region Finalist — Top 7</p>
+            <p>
+              Qualified through the online selection round as one of seven
+              finalists in the Central Region for Cyber Security.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item achievement-featured priority-3">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>BU Mini CTF Competition 2026</h3>
+              <span>FEB 2026</span>
+            </div>
+            <p class="achievement-title">2nd Place</p>
+            <p>
+              Secured second place by solving practical cybersecurity
+              challenges across multiple categories.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/BU%20mini%20CTF%202026.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item achievement-featured priority-3">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>DropCTF x STH TEMPEST CTF</h3>
+              <span>SEP 2025</span>
+            </div>
+            <p class="achievement-title">6th Place — Final Round</p>
+            <p>
+              Reached the final round and placed sixth in a competitive,
+              multi-category CTF event.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item priority-2">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Hack The Box Holmes CTF 2025</h3>
+              <span>SEP 2025</span>
+            </div>
+            <p class="achievement-title">53rd Place / 6,686 Teams</p>
+            <p>
+              Ranked among the top teams in an international Hack The Box
+              investigation-focused CTF.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/Holmes%20CTF%20-%20Capture%20The%20Flag%20Challenge.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item priority-2">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>BU Mini CTF Competition 2025</h3>
+              <span>MAY 2026</span>
+            </div>
+            <p class="achievement-title">2nd Place</p>
+            <p>
+              Achieved second place in Bangkok University's practical CTF
+              competition.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/BU-ITI%20CTF%20Completition%202025.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item priority-2">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>SWU Capture the Flag Competition 2025</h3>
+              <span>JUL 2025</span>
+            </div>
+            <p class="achievement-title">6th Place</p>
+            <p>
+              Placed sixth by solving challenges across multiple cybersecurity
+              disciplines.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/SWU%20Capture%20the%20Flag%20Competition%202025.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item priority-1">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Hack The Scammer CTF 2025</h3>
+              <span>DEC 2025</span>
+            </div>
+            <p class="achievement-title">37th Place</p>
+            <p>
+              Completed practical challenges focused on cybersecurity
+              investigation and threat awareness.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/HackTheScammer2025.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+
+        <article class="timeline-item priority-1">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Hack The Box University CTF 2025: Tinsel Trouble</h3>
+              <span>DEC 2025</span>
+            </div>
+            <p class="achievement-title">190th Place</p>
+            <p>
+              Represented the university in a global CTF featuring diverse
+              offensive-security challenges.
+            </p>
+            <a
+              class="text-link"
+              href="certificates/University%20CTF%202025%20Tinsel%20Trouble.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View achievement ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="section container" id="hackthebox" hidden>
+      <div class="section-heading">
+        <p class="section-number">05.</p>
+        <h2>Hack The Box</h2>
+      </div>
+
+      <p class="section-intro">
+        My Hack The Box profile and practical lab activity across machines,
+        Pro Labs, web exploitation, Linux, Windows, and Active Directory.
+      </p>
+
+      <article class="htb-profile-card">
+        <div class="htb-card-glow" aria-hidden="true"></div>
+
+        <div class="htb-avatar-wrap">
+          <img
+            class="htb-avatar"
+            src="https://htb-sso-prod-public-storage.s3.eu-central-1.amazonaws.com/users/f32f0349-3343-44a2-9d98-dacca5bfafcf-avatar.png"
+            alt="MaiR00Ni Hack The Box profile avatar"
+            loading="lazy"
+          />
+          <span class="htb-online-dot" aria-label="Active Hack The Box player"></span>
+        </div>
+
+        <div class="htb-main-content">
+          <div class="htb-card-top">
+            <div>
+              <p class="htb-kicker">HACK THE BOX PROFILE</p>
+              <h3>MaiR00Ni</h3>
+            </div>
+
+            <div class="htb-brand" aria-label="Hack The Box">
+              <span class="htb-brand-mark">⌬</span>
+              <span>HTB</span>
+            </div>
+          </div>
+
+          <div class="htb-rank-row">
+            <div>
+              <p class="htb-rank-label">Current HTB Rank</p>
+              <span class="htb-rank-badge">HACKER</span>
+            </div>
+
+            <div class="htb-season">
+              <strong>Silver</strong>
+              <span>Season Rank</span>
+            </div>
+
+            <div class="htb-season">
+              <strong>Level 42</strong>
+              <span>Season Level</span>
+            </div>
+          </div>
+
+          <p class="htb-description">
+            Cybersecurity student and CTF player developing hands-on offensive
+            security skills through Hack The Box machines, challenges, and
+            advanced lab environments.
+          </p>
+
+          <div class="htb-card-footer">
+            <div class="htb-profile-id">
+              <span class="htb-id-label">HTB USER ID</span>
+              <strong>#2442989</strong>
+            </div>
+
+            <div class="htb-actions">
+              <a
+                class="button htb-secondary-button"
+                href="https://app.hackthebox.com/users/2442989?profile-top-tab=machines&amp;ownership-period=1M&amp;profile-bottom-tab=prolabs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Machines &amp; Pro Labs
+              </a>
+
+              <a
+                class="button htb-primary-button"
+                href="https://ctf.hackthebox.com/user/profile/839531"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View My HTB Profile
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="section-number">05.</p>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured-project">
+          <div class="project-label">Featured Project</div>
+          <h3>NT CRYLAR</h3>
+          <p>
+            A web platform for uploading and parsing Nmap XML files,
+            visualizing network topology, reviewing discovered devices and
+            ports, and mapping CPE data to NVD vulnerabilities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">What’s next?</p>
+        <h2>Let’s Connect</h2>
+        <p>
+          I am interested in cybersecurity internships, CTF teams,
+          penetration-testing opportunities, and collaborative security
+          projects.
+        </p>
+
+        <div class="contact-actions">
+          <a class="button primary-button" href="mailto:sorrawit.sec@gmail.com">
+            Send an email
+          </a>
+          <a
+            class="button secondary-button"
+            href="https://www.linkedin.com/in/sorrawit-prammanee-ba02aa365"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Designed and built by Sorrawit Prammanee.</p>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
